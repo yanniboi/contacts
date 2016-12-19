@@ -73,9 +73,6 @@ class DashboardController extends ControllerBase {
         ];
         /* @var $plugin_block \Drupal\Core\Block\BlockBase */
         $plugin_block = $block_manager->createInstance('entity_view:profile', $config);
-        dpm($user->profile_crm_indiv->target_id);
-        dpm($user->profile_crm_org->target_id);
-
         if ($user->hasRole('crm_indiv') && !empty($user->profile_crm_indiv->entity)) {
           $profile = $user->profile_crm_indiv->entity;
           $profile_context = new Context(new ContextDefinition('entity:profile', $this->t('Indiv Profile')), $profile);

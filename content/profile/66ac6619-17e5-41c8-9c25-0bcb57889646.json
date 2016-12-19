@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/profile\/2?_format=hal_json"
+            "href": "http:\/\/default\/profile\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_notes"
@@ -14,17 +14,17 @@
     },
     "profile_id": [
         {
-            "value": "2"
+            "value": "4"
         }
     ],
     "uuid": [
         {
-            "value": "905d9d22-3895-4b22-8287-322b572beea0"
+            "value": "66ac6619-17e5-41c8-9c25-0bcb57889646"
         }
     ],
     "revision_id": [
         {
-            "value": "2"
+            "value": "4"
         }
     ],
     "langcode": [
@@ -50,7 +50,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "3955aec3-c305-4104-90cf-42bd293d5731"
+                        "value": "096d7ac0-1358-4677-ad71-c05193ccf279"
                     }
                 ]
             }
@@ -68,18 +68,12 @@
     ],
     "created": [
         {
-            "value": "1481901842"
+            "value": "1482155824"
         }
     ],
     "changed": [
         {
-            "value": "1481901857"
-        }
-    ],
-    "crm_notes": [
-        {
-            "value": "test",
-            "lang": "en"
+            "value": "1482155824"
         }
     ]
 }

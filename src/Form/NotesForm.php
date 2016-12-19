@@ -18,7 +18,7 @@ class NotesForm extends FormBase {
 
     $entity_form_display = \Drupal::service('entity_type.manager')
       ->getStorage('entity_form_display')
-      ->load('profile.crm_indiv.default');
+      ->load('profile.crm_notes.default');
 
     if ($widget = $entity_form_display->getRenderer('crm_notes')) {
       $items = $this->entity->get('crm_notes');
