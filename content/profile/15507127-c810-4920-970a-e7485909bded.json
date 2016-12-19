@@ -1,0 +1,106 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/profile\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/profile\/crm_org"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "href": "http:\/\/default\/user\/3?_format=hal_json"
+            }
+        ]
+    },
+    "profile_id": [
+        {
+            "value": "3"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "15507127-c810-4920-970a-e7485909bded"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": "3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "crm_org"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/profile\/crm_org\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b5bc8ea9-d65f-430d-98a1-ac899c19346f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1"
+        }
+    ],
+    "is_default": [
+        {
+            "value": "1"
+        }
+    ],
+    "created": [
+        {
+            "value": "1481898368"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1481898368"
+        }
+    ],
+    "crm_org_address": [
+        {
+            "langcode": null,
+            "country_code": "GB",
+            "administrative_area": null,
+            "locality": "test",
+            "dependent_locality": null,
+            "postal_code": "m14 7gs",
+            "sorting_code": null,
+            "address_line1": "test",
+            "address_line2": "",
+            "organization": "",
+            "given_name": "",
+            "additional_name": null,
+            "family_name": ""
+        }
+    ],
+    "crm_org_email": [
+        {
+            "value": "org@test.com"
+        }
+    ],
+    "crm_org_name": [
+        {
+            "value": "Test Organisation"
+        }
+    ]
+}
